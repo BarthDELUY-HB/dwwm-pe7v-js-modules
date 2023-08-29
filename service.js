@@ -1,5 +1,3 @@
-"use strict";
-
 class Service {
     nom;
     directeur;
@@ -34,3 +32,5 @@ class Service {
 
     }
 }
+
+export { Service };
