@@ -11,6 +11,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
     let employeDeBase = new Employe('Durand', 'Jacques', 1389);
     monService.addEmploye(employeDeBase);
+    monService.addEmploye(new Employe('Durand', 'Marguerite', 1764));
+    console.log(monService);
+    monService.removeEmploye(new Employe('Durand', 'Marguerite', 1764));
     console.log(monService);
 
 
